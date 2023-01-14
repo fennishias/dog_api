@@ -13,16 +13,13 @@
 .dog-img{
     display:none;
     box-shadow: 0 10px 6px -6px #777;
-    max-width:30% ;
-    height: 20%; 
     margin: auto;
   
 }
 select{
     border-radius:2px solid rgb(206, 206, 241);
-    height:30%;
     margin-top:2rem;
-    padding:5px;
+    padding:1rem;
  
 }
 .show{
@@ -45,6 +42,8 @@ p{
    
 }
 .head{
+    width:100%;
+   
     display: flex;
     justify-content: space-around;
     background-image: linear-gradient(to right, red, blue,orange,violet);
